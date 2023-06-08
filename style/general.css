@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main{
+  margin: 300px auto; 
+  width: 736px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2%;
+}
+p{
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+@media (max-width: 740px) {
+  main{
+    width: 375px;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: unset;
+
+  }
+}
