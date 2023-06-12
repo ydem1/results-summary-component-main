@@ -17,6 +17,7 @@ p{
 
 @media (max-width: 740px) {
   main{
+    margin: auto;
     width: 375px;
     border-radius: 25px;
     flex-direction: column;
